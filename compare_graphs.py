@@ -140,7 +140,7 @@ def main(args: List[str]) -> int:
         f.write("\t".join(f"{manhat_dist[i, j]:.6g}" for j in range(i + 1)) + "\n")
 
     f.close()
-    input("Press Enter to continue...")
+    #input("Press Enter to continue...")
     return 0
 
 if __name__ == "__main__":
